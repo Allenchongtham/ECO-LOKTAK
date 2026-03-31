@@ -324,7 +324,7 @@ function App() {
             
             <button 
               onClick={() => setShowSOSPanel(true)} 
-              className="bg-red-600 text-white w-56 h-56 rounded-full shadow-[0_10px_35px_rgba(220,38,38,0.5)] font-black text-3xl border-8 border-red-300 hover:bg-red-700 active:scale-95 transition-all flex flex-col items-center justify-center gap-2"
+              className="bg-red-600 text-white w-56 h-56 rounded-full shadow-[0_10px_35px_rgba(220,38,38,0.5)] font-black text-5xl border-8 border-red-300 hover:bg-red-700 active:scale-95 transition-all flex flex-col items-center justify-center gap-2"
             >
               SOS
             </button>
