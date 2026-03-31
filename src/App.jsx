@@ -177,7 +177,7 @@ function App() {
           const lng = position.coords.longitude.toFixed(6);
           const mapLink = `http://googleusercontent.com/maps.google.com/?q=${lat},${lng}`;
           
-          alert(`🚨 DEMO MODE: SOS Triggered!\n\nDispatched to Loktak Emergency Services.\n\nDATA PAYLOAD GENERATED:\n"EMERGENCY TYPE: [${emergencyType.toUpperCase()}] at Loktak Lake!\nMy exact GPS location is:\n${mapLink}"`);
+          alert(` DEMO MODE: SOS Triggered!\n\nDispatched to Loktak Emergency Services.\n\nDATA PAYLOAD GENERATED:\n"EMERGENCY TYPE: [${emergencyType.toUpperCase()}] at Loktak Lake!\nMy exact GPS location is:\n${mapLink}"`);
         },
         (error) => {
           alert("Could not access GPS. Please ensure location services are enabled to send an SOS.");
@@ -326,7 +326,7 @@ function App() {
               onClick={() => setShowSOSPanel(true)} 
               className="bg-red-600 text-white w-56 h-56 rounded-full shadow-[0_10px_35px_rgba(220,38,38,0.5)] font-black text-3xl border-8 border-red-300 hover:bg-red-700 active:scale-95 transition-all flex flex-col items-center justify-center gap-2"
             >
-              <span className="text-5xl">🆘</span>SOS
+              SOS
             </button>
             <p className="text-xs text-red-500 font-bold mt-12 uppercase tracking-widest">For Severe Emergencies Only</p>
           </div>
